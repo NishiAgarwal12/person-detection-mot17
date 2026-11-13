@@ -1,0 +1,11 @@
+GPU latency on a Tesla T4 (random 640x480 frames, batch 1; fine-tuned rows: mean +- s.d. over three seeds)
+model | GPU ms | FPS
+SSDLite 512, fine-tuned | 14.9 +- 2.3 | 67
+SSDLite 320, COCO only | 33.0 | 30
+SSDLite 512, COCO only (control) | 29.5 | 34
+yolov8n, fine-tuned | 8.0 +- 1.4 | 125
+yolov8n, COCO only | 7.7 | 131
+yolov10n, fine-tuned | 9.2 +- 1.5 | 109
+yolov10n, COCO only | 8.4 | 119
+yolo26n, fine-tuned | 11.5 +- 2.0 | 87
+yolo26n, COCO only | 11.0 | 91

@@ -1,0 +1,17 @@
+{
+  "cmd": "train",
+  "img_dir": "/content/mot640",
+  "val_json": "splits_mot640/val_vis25.json",
+  "person_id": 1,
+  "seed": 43,
+  "workers": 2,
+  "out": "results_mot/ssdlite512_s43",
+  "train_json": "splits_mot640/train_vis25.json",
+  "epochs": 8,
+  "batch": 16,
+  "lr": 0.003,
+  "wd": 4e-05,
+  "amp": true,
+  "init": "coco",
+  "size": 512
+}
