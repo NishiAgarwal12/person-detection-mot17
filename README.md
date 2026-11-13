@@ -68,5 +68,4 @@ See the paper for all rows (including COCO-weights-only YOLO models), the size b
 video; latency was measured on random 640 × 480 frames at batch size 1 on shared cloud hardware.
 
 ## Licence
-Code: {{choose a licence, e.g. MIT or Apache-2.0, and add the LICENSE file}}. Ultralytics is licensed separately (AGPL-3.0);
-check its terms before redistributing combined code. MOT17 and the pretrained weights have their own licences.
+Code: MIT (see the LICENSE file). Ultralytics is licensed separately (AGPL-3.0); check its terms before redistributing combined code. MOT17 and the pretrained weights have their own licences.
